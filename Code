@@ -148,6 +148,14 @@ button:hover {
     </div>
   </div>
 </form>
+<input type="button" submit="show_alert()" value="Name" />
 
+    <script>
+        function show_alert(Name)
+        {
+            var Name= "Brody";
+            alert("Congratulations you are now signed up" + Name);
+        }
+    </script>
 </body>
 </html>
